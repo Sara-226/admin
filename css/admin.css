@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/background-simplon-pattern.svg);
+}
+.navigation{
+    width: 100%;
+    height: 120px;
+    background-color: #ce0033;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.checkbtn{
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-bars{
+    margin-left: 5px;
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu-main{
+    margin-top: 15px;
+    margin-left: 60px;
+    border:2px solid white;
+    width: 3%;
+    height: 35px;
+}
+.menu{
+    display: none;
+    position: absolute;
+    background-color: #ce0033;
+    z-index: 5;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-main:hover .menu{
+    display: block;
+}
+.simplon{
+ width: 472px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+} 
+.image{
+    
+    width: 400px;
+}
+.formulaire{
+    margin-top: 30px;
+    width: 40%;
+    background-color: white; 
+}
+.norma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ordone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.em{
+    text-align: center;
+}
+.pm{
+    margin: 5px;
+    padding: 5px;
+}
+.aligne{
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.bouton{
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ce0033;
+    color: #ce0033;
+    background-color: white;
+}
+.classer{
+    display: flex;
+    justify-content: end;
+    margin-top:15px ;
+}
+.bton{
+    width: 20%;
+    height: 35px;
+    border: 1px solid #ce0033;
+    border-radius: 10px;
+    background-color: white;
+}
+.bton a{
+    text-decoration: none;
+    color: #ce0033;
+}
+.inscri{
+    border-radius: 5px;
+    background-color: #ce0033;
+    color: white;
+    text-align: center;
+}
+.centre{
+    background-color: #ce0033;
+    text-align: center;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 120px;  
+}
+.effiche{
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ce0033;
+    color: #ce0033;
+    background-color: white;
+}
+
+@media screen and (min-width:200px) and (max-width:740px){
+   
+    .simplon{
+        display: none;
+    }
+    .fa-bars{
+        margin-left:0;
+        color:#ce0033;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .menu-main{
+        margin-top: 0;
+        margin-left: 0;
+        border:2px solid #ce0033;
+        width:10%;
+        height: 35px;
+    }
+    .menu li{
+        list-style: none;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu li a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    .menu-main:hover .menu{
+        display: block;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .formulaire{
+        display: block;
+        width:100%;
+    }
+    .aligne{
+        margin-left: 0;
+    
+    }
+    .alige{
+        margin-left: 0;
+    }
+    .algne{
+        margin-left:0;
+    }
+    .alg{
+        margin-left:0;  
+    }
+    .centre{
+        background-color: #ce0033;
+        text-align: center;
+        border-radius: 15px;
+        width: 50%;
+      
+    }
+
+
+}
+@media screen and (min-width:740px) and (max-width:1024px){
+    .simplon{
+        display: none;
+    }
+}
